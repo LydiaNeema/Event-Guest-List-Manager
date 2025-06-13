@@ -16,18 +16,21 @@ const radios=document.querySelector('input[name="radio"]:checked');
 const attendies=document.getElementById("attendies");
 
 //creating an unorderd list for appending my list of guests
-const orderdlist=document.createElement("ul");
+let orderdlist=attendies.querySelector("ul");// checks of any existing ul
+if(!orderdlist){
+ orderdlist=document.createElement("ul");
 attendies.appendChild(orderdlist);
+}
 
 // creating a list of guests
 const listItems=document.createElement("li");
 orderdlist.appendChild(listItems);
 
 //minimizing my lists of guest to 10 people maximum
-if(orderdlist.children.length>=10){
+if(orderdlist.children.length >=10 ){
     alert("maximum guest list achieved");
+    return;
 }
-
 
  // initializing my list to the values of the inputs.   
 listItems.innerHTML=`${firstname}-${lastname}-${radios.value}`;
