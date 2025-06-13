@@ -26,13 +26,68 @@ attendies.appendChild(orderdlist);
 const listItems=document.createElement("li");
 orderdlist.appendChild(listItems);
 
+// initializing my list to the values of the inputs.   
+listItems.innerHTML=`${firstname}  ${lastname} : -${radios.value}   `;
+listItems.style.padding="5px";
+listItems.style.fontSize="1rem";
+listItems.style.color="red";
+
+
+
 //minimizing my lists of guest to 10 people maximum
-if(orderdlist.children.length >=10 ){
+if(orderdlist.children.length >10 ){
     alert("maximum guest list achieved");
     return;
 }
+// add an edit/remove and rsvp button in my list
 
- // initializing my list to the values of the inputs.   
-listItems.innerHTML=`${firstname}-${lastname}-${radios.value}`;
+const remove=document.createElement("button");
+const rsvp=document.createElement("button");
+
+
+remove.innerHTML="Remove";
+rsvp.innerHTML="Rsvp";
+
+
+listItems.appendChild(remove);
+listItems.appendChild(rsvp);
+
+// created ids and style for my buttons
+
+remove.id="remove";
+rsvp.id="rsvp";
+
+remove.style.backgroundColor="blue";
+remove.style.color="white";
+remove.style.width="70px";
+remove.style.height="20px";
+remove.style.marginLeft="10px";
+remove.style.marginRight="10px";
+remove.style.border="2px";
+
+
+
+rsvp.style.backgroundColor="blue";
+rsvp.style.color="white";
+rsvp.style.width="70px";
+rsvp.style.height="20px";
+rsvp.style.marginLeft="10px";
+rsvp.style.marginRight="10px";
+rsvp.style.border="2px";
+
+
+
+
+remove.addEventListener("click",function(e){
+    listItems.remove(listItems);
+})
+
+rsvp.addEventListener("click",function(e){
+ alert("confirmed attendance");
+})
+
+
+
+
 
 });
