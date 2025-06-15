@@ -109,6 +109,12 @@ margin-right: 10px;
     color:white; 
     
 }
+input{
+  margin: 10px 0;
+  padding: 8px;
+  width: 300px;
+}
+
 
 .display{
     background-color:#d4c5db ;
