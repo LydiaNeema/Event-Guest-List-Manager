@@ -5,7 +5,8 @@
 }
 
 html,body{
-    background-image: url(/images/pexels-karolina-grabowska-5706067.jpg);
+   /*background-image: url(../images/pexels-karolina-grabowska-5706067.jpg);*/
+   background-color:#5409DA;
     font-family: 'Poppins', sans-serif;
     background-size: auto;
     margin: 50px;
@@ -109,7 +110,8 @@ margin-right: 10px;
     color:white; 
     
 }
-input{
+input
+{
   margin: 10px 0;
   padding: 8px;
   width: 300px;
