@@ -75,6 +75,9 @@ These features are planned or partially implemented:
 1. Clone this repository or download the zip.
 2. Open `index.html` in any modern browser.
 3. Fill out the form and test the functionality.
+4. You can also view the website live via this url  
+
+ ##  https://lydianeema.github.io/Event-Guest-List-Manager/
 
 > No additional setup or installation needed.
 
