@@ -8,7 +8,10 @@ html,body{
    background-image: url(./images/pexels-karolina-grabowska-5706067.jpg);
     font-family: 'Poppins', sans-serif;
     background-size: auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 50px;
     scroll-behavior: auto;
   
