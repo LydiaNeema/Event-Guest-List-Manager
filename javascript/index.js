@@ -59,8 +59,8 @@ rsvp.id="rsvp";
 
 remove.style.backgroundColor="blue";
 remove.style.color="white";
-remove.style.width="70px";
-remove.style.height="20px";
+remove.style.width="80px";
+remove.style.height="32px";
 remove.style.marginLeft="10px";
 remove.style.marginRight="10px";
 remove.style.border="2px";
@@ -69,8 +69,8 @@ remove.style.border="2px";
 
 rsvp.style.backgroundColor="blue";
 rsvp.style.color="white";
-rsvp.style.width="70px";
-rsvp.style.height="20px";
+rsvp.style.width="80px";
+rsvp.style.height="32px";
 rsvp.style.marginLeft="10px";
 rsvp.style.marginRight="10px";
 rsvp.style.border="2px";
