@@ -1,6 +1,3 @@
-# Event-Guest-List-Manager
-week2-code challange
-Good morning, Lydia! Here's a clean, professional, and personalized **README** file tailored for your **Event Guest List Manager** project:
 
 ---
 
