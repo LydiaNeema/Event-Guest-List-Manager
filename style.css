@@ -8,14 +8,18 @@ html,body{
    background-image: url(./images/pexels-karolina-grabowska-5706067.jpg);
     font-family: 'Poppins', sans-serif;
     background-size: auto;
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;*/
     margin: 50px;
     scroll-behavior: auto;
   
   
+}
+.upper{
+   justify-content: start; 
+   align-items: start;
 }
 .upper h1{
     color: #cab406;
@@ -46,6 +50,11 @@ padding: 20px;
 margin-left: 50px;
 margin-right:50px ;
 
+}
+#events, .introduction, .display {
+  background-color: rgba(255, 255, 255, 0.9); /* Light transparent background */
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 #intro{
     justify-content: center;
@@ -109,10 +118,18 @@ margin-right: 10px;
     border: 1px solid black;
     border-radius:20px ;
     width:80px; 
+    height: 32px;
     background-color: blue;
     color:white; 
     
 }
+
+#submit input:hover,
+#remove:hover,
+#rsvp:hover {
+  background-color: #3700b3;
+}
+
 input
 {
   margin: 10px 0;
@@ -130,6 +147,8 @@ input
 }
 #remove{
     border-radius: 10px;
+    width: 80px;
+    height: 32px;
 }
 #rsvp{
     border-radius: 10px;
