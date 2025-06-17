@@ -30,7 +30,7 @@ html,body{
 }
 
 #events{
-    background-color: #9b9396;
+    /*background-color: #9b9396;*/
     justify-content: center;
     align-items: center;
     width: 1000px;
@@ -42,7 +42,7 @@ html,body{
     
 }
 .introduction{
-background-color:#cab406;
+/*background-color:#cab406;*/
 display: flex;
 flex-direction: column;
 width: 850px;
