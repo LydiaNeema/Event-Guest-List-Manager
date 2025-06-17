@@ -23,7 +23,7 @@ This is a student project submitted as part of the **SA.02: Week 2 Code Challeng
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Add a guest’s first and last name
 ✅ Choose a guest category via radio buttons
@@ -36,7 +36,7 @@ This is a student project submitted as part of the **SA.02: Week 2 Code Challeng
 
 ---
 
-## 🧠 Learning Goals Achieved
+##  Learning Goals Achieved
 
 * DOM selection and manipulation using `getElementById`, `querySelector`, and `createElement`
 * Preventing form refresh using `event.preventDefault()`
@@ -46,7 +46,7 @@ This is a student project submitted as part of the **SA.02: Week 2 Code Challeng
 
 
 
-## 🗂️ File Structure
+## File Structure
 
 ```
 LuxuryEvents/
@@ -60,7 +60,7 @@ LuxuryEvents/
 
 ---
 
-## 🧩 Stretch Features (coming soon)
+##  Stretch Features (coming soon)
 
 These features are planned or partially implemented:
 
@@ -83,7 +83,7 @@ These features are planned or partially implemented:
 
 ---
 
-## 📚 Technologies Used
+##  Technologies Used
 
 * **HTML5** – Structure
 * **CSS3** – Styling and layout
@@ -91,7 +91,7 @@ These features are planned or partially implemented:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Lydia**
 Frontend Developer in training
@@ -99,11 +99,11 @@ Passionate about creating useful, clean, and interactive web applications.
 
 
 
-## 📦 Submission Details
+##  Submission Details
 
-* **School**: \[Moringa School]
+* **School**: [Moringa School]
 * **Course**: Software Engineering SA.02
-* **Instructor**: \[Beatrice Wambui]
+* **Instructor**: [Beatrice Wambui]
 * **Due Date**: June 15
 
 ---
